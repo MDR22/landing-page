@@ -149,9 +149,39 @@ span {
     margin-right: 300px;
 }
 
-.action-box {
+.action-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    padding: 26px;
+}
+
+.modal {
+    background: #132850;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    gap: 10px;
+
+}
+
+ .apply-now {
+    width: 150px;
+    border-radius: 8px;;
+}
+
+.modal-text {
+    color: #ebe6e2;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.action-header {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: -10px;
 }
