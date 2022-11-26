@@ -158,10 +158,10 @@ span {
 
 .modal {
     background: #132850;
-    width: 800px;
+    width: 1000px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     padding: 8px;
     border-radius: 8px;
     gap: 10px;
@@ -177,6 +177,9 @@ span {
     color: #ebe6e2;
     font-weight: 200;
     font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
 }
 
 .action-header {
