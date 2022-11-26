@@ -188,3 +188,12 @@ span {
     font-family: sans-serif;
     margin-bottom: -10px;
 }
+
+.footer {
+    display: flex;
+    background-color: #132850;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color:#cfd1d7;
+}
